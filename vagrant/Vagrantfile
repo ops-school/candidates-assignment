@@ -1,7 +1,7 @@
 servers=[
 {
   :hostname => "server1",
-  :ip => "192.168.100.10",
+  :ip => "172.16.0.10",
   :box => "ubuntu/precise64",
   :ram => 512,
   :cpu => 1,
@@ -9,7 +9,7 @@ servers=[
 },
 {
   :hostname => "server2",
-  :ip => "192.168.100.11",
+  :ip => "172.16.0.11",
   :box => "ubuntu/precise64",
   :ram => 512,
   :cpu => 1,

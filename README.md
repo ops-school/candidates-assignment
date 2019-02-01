@@ -29,7 +29,7 @@ there are two servers running:
 
 name|server1|server2
 ----|-------|-------
-ip  |192.168.100.10|192.168.100.11
+ip  |172.16.0.10|172.16.0.10.11
 
 Important note: the infrastructure should work out of the box. There's no hidden part of the exercise in which you need to debug vagrant/virtualbox.
 
@@ -50,7 +50,7 @@ What went wrong?
 Please fix the issue and add the command that fixes the issue to  `exercise2-fix.sh`
 
 #### Exercise3:
-open your browser, go to http://192.168.100.10/
+open your browser, go to http://172.16.0.10/
 
 We expect to see a message from opsSchool.
 What do you get?
