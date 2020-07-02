@@ -1,2 +1,9 @@
 #!/bin/bash
-#add fix to exercise5-server1 here
+
+#install sshpass package.
+
+sudo apt-get install sshpass -y  >> /dev/null
+
+#ssh to server2 with password and ignore certificate verification.
+
+sshpass -p 'vagrant' ssh -o StrictHostKeyChecking=no vagrant@server2
